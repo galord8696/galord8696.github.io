@@ -1,0 +1,89 @@
+@charset "UTF-8";
+
+body {
+	background: lightblue;
+	font: 100% Times, serif;
+}
+h1 {
+	font: 300% times, serif;
+	color: #F70D1A;
+}
+
+p {
+	color: darkblue;
+}
+#wrapper {
+	width: 1100px;
+	margin: 0 auto;
+	padding: 0 50px;
+	text-align: left;
+	position: relative;
+}
+header#mainHeader {
+	height: 185px;
+	background: url(images/logo.png) no-repeat 25px center;
+	padding: 0 75px 0 300px;
+	position: relative;
+	border-bottom: 2px solid #7f7f7f;
+	margin-bottom:16px;
+}
+header#mainHeader div{
+	margin-top: 16px;
+}
+header#mainHeader ul{
+	list-style: none;
+	float: left;
+}
+header#mainHeader ul li {
+	float: left;
+}
+header#mainHeader ul li a {
+	font-family:Arial, Helvetica, sans-serif;
+	font-size:20px;
+	color: #000;
+	padding: 0 20px;
+	border-right: 1px solid black;
+	text-decoration: none;
+}
+header#mainHeader ul li a.last{
+	border:none;
+}
+header#mainHeader ul li a:hover{
+	color: #c00000;
+}
+
+section#content {
+	float: left;
+	width: 600px;
+	padding: 0 10px 0 25px;
+	margin-bottom: 10px;
+	border-right: 1px solid #7f7f7f;
+}
+
+section#content p {
+	color: #666;
+	line-height: 1.6;
+	margin-bottom: 10px;
+}
+
+aside#hobbies {
+	font-size: 90%;
+	float: right;
+	width: 450px;
+	margin-bottom: 20px;
+	color: #F70D1A;
+}
+
+footer#pageFooter {
+	clear: both;
+	border-top: 2px solid #7f7f7f;
+	padding: 20px;
+}
+
+footer#pageFooter p {
+	text-align: center;
+	font-style: italic;
+	margin-bottom: 10px;
+	color: #666;
+}
+		
