@@ -57,10 +57,11 @@ section#content {
 	padding: 0 10px 0 25px;
 	margin-bottom: 10px;
 	border-right: 1px solid #7f7f7f;
+	color: 	#000000;
 }
 
 section#content p {
-	color: #666;
+	color: 	#000000;
 	line-height: 1.6;
 	margin-bottom: 10px;
 }
@@ -70,7 +71,7 @@ aside#hobbies {
 	float: right;
 	width: 450px;
 	margin-bottom: 20px;
-	color: #F70D1A;
+	color: 	#000000;
 }
 
 footer#pageFooter {
